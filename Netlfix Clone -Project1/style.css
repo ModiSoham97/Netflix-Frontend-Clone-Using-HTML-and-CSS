@@ -1,0 +1,795 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Netflix Sans';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.Dropdown-lang {
+    width: 180px;
+    /* border: 0.5px solid black; */
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-self: center
+}
+
+
+.Dropdown-lang select {
+    width: 124px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 5px;
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 32px;
+    border-radius: 5px;
+    /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 6px 36px 6px 34px;
+
+
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.Translate-icon {
+    position: relative;
+    z-index: -1;
+
+    left: 40px;
+
+    width: 40px;
+    /* font-weight: bold; */
+
+}
+
+.Optlang {
+    color: black;
+}
+
+
+.signin {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    width: 5vw;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: small;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    text-decoration: none;
+    padding: 8px 20px;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    margin: auto;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* flex-wrap: wrap; */
+    position: relative;
+    left: 5%;
+    padding: 30px 60px;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+
+}
+
+.Netlix-logo {
+    height: 20px;
+}
+
+.Dropdown-arrow {
+    position: relative;
+    left: -29px;
+    z-index: -1;
+}
+
+header {
+    /* background-color: transparent; */
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.276) 39.00%, rgba(0, 0, 0, 0.21) 46.25%, rgba(0, 0, 0, 0.267) 53.50%, rgba(0, 0, 0, 0) 60.75%, rgba(0, 0, 0, 0) 68.00%, rgba(0, 0, 0, 0) 75.25%, rgba(0, 0, 0, 0) 82.50%, rgba(0, 0, 0, 0) 89.75%, rgba(0, 0, 0, 0) 100.00%);
+    /* backdrop-filter: blur(100%); */
+
+
+
+
+}
+
+.container {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/914ad279-199e-4095-9c10-2409dc9e5e1b/web/IN-en-20250519-TRIFECTA-perspective_8f1ca896-9e49-4a4e-90f0-22fc49650bd9_large.jpg);
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    z-index: -3;
+    width: max(1200px, 100vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size:; */
+
+    /* filter: brightness(0.6) contrast(1.2); */
+
+}
+
+.Background-effect {
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-blend-mode: saturation; */
+    width: max(1200px, 100vw);
+}
+
+.text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 44%;
+    margin: auto;
+    gap: 20px;
+    top: 18vh;
+    /* flex-wrap: wrap; */
+}
+
+.text1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+   
+
+}
+
+.text2 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+    
+
+}
+
+.text3 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    /* margin-bottom: 20px; */
+    
+
+}
+
+#email1 {
+    background-color: transparent;
+    padding-right: 24px;
+    padding: 16px 24px;
+    width: 367px;
+    border: 1px solid rgba(255, 255, 255, 0.409);
+    color: rgba(255, 255, 255, 0.438);
+    box-sizing: border-box;
+    font-size: 1rem;
+
+}
+
+.text span button {
+    color: white;
+    background-color: red;
+    width: 212px;
+    height: 56px;
+    font-size: 1.5rem;
+    border: 0px none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.curve-container {
+    box-sizing: border-box;
+    position: relative;
+    height: 100px;
+    top: 40vh;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%,
+            rgba(64, 97, 231, 0.4) 80%,
+            rgba(0, 0, 0, 0.1) 100%), black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 130%;
+    left: -15%;
+    right: -15%;
+
+
+}
+
+.curve-container::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -.25rem;
+    border-radius: inherit;
+    background: linear-gradient(to right,
+            rgba(33, 13, 22, 1) 16%,
+            rgba(184, 40, 105, 1),
+            rgba(229, 9, 20, 1),
+            rgba(184, 40, 105, 1),
+            rgba(33, 13, 22, 1) 84%);
+
+}
+
+.text4 {
+    color: white;
+    position: relative;
+    /* z-index: 1000; */
+    /* top: 220px; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Netflix Sans';
+    /* font-style: bold; */
+}
+
+.Trending {
+    display: flex;
+    top: 240px;
+    position: relative;
+    width: 76.5vw;
+    margin: auto;
+    flex-direction: column;
+    height: 314.667px;
+    gap: 10px;
+    background-color: black;
+    z-index: 20;
+
+
+
+
+}
+
+.Shows {
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    position: relative;
+    z-index: 3;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.Shows li {
+    transition: transform 0.1s ease-in;
+    height: 250px;
+    width: 180px;
+    /* padding: 20px; */
+    margin: 20px;
+    background-repeat: no-repeat;
+    /* border: 2px solid transparent; */
+    border-radius: 8px;
+    cursor: pointer;
+    /* display: inline-flex; */
+    /* flex-wrap: nowrap; */
+
+
+}
+
+.Shows li:hover {
+    transform: scale(1.1);
+}
+
+.Shows :nth-child(1) {
+    position: relative;
+    left: 10px;
+}
+
+.Shows :nth-child(1) ::before {
+    content: "1";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(2) ::before {
+    content: "2";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -20px;
+}
+
+.Shows :nth-child(3) ::before {
+    content: "3";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(4) ::before {
+    content: "4";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(5) ::before {
+    content: "5";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(6) ::before {
+    content: "6";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(7) ::before {
+    content: "7";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(8) ::before {
+    content: "8";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(9) ::before {
+    content: "9";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.Shows :nth-child(10) ::before {
+    content: "10";
+    font-size: 6.25rem;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Netflix Sans';
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.text5 {
+    color: white;
+    display: flex;
+    position: relative;
+    top: 350px;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.text6 {
+    color: white;
+    display: flex;
+    position: relative;
+    list-style: none;
+    gap: 15px;
+    flex-wrap: wrap;
+    /* top: 350px; */
+    /* flex-direction: ; */
+}
+
+.text6 span {
+    background: linear-gradient(149deg,
+            #192247 0%,
+            #210e17 96.86%);
+    backdrop-filter: blur(30px);
+    height: 320px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text6 span li b {
+    font-size: 1.5rem;
+    line-height: 35px;
+    font-weight: 600;
+
+}
+
+.text6 span li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 320px;
+    width: 200px;
+}
+
+.text6 span li div {
+    font-size: 1rem;
+
+}
+
+.images {
+    align-self: flex-end;
+    padding-top: 100px;
+}
+
+.text7 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 500px;
+}
+
+.text8 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.button1 {
+    color: white;
+    background-color: red;
+    width: 212px;
+    height: 56px;
+    font-size: 1.5rem;
+    border: 0px none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text8 span {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#email2 {
+    background-color: transparent;
+    padding-right: 24px;
+    padding: 16px 24px;
+    width: 458px;
+    border: 1px solid rgba(255, 255, 255, 0.409);
+    color: rgba(255, 255, 255, 0.438);
+    box-sizing: border-box;
+    font-size: 1rem;
+
+}
+
+.end {
+    width: 80vw;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.end1 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    gap: 10px;
+
+}
+
+.end2 {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(4, 40px);
+    width: 80vw;
+    height: 470px;
+    grid-auto-flow: column;
+
+}
+
+.end2 a {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+}
+
+.end3 {
+    color: rgba(255, 255, 255, 0.7);
+    /* margin: auto; */
+    font-size: 0.875rem;
+    margin: auto;
+    
+}
+
+.end3-parent {
+    display: flex;
+    flex-direction: column;
+    width: 76.5%;
+    margin: auto;
+    gap: 30px;
+}
+
+.end4 {
+    height: 20vh;
+}
+
+@media only screen and (max-width:480px) {
+
+    
+   .container.Background-effect
+     {
+        /* width: 100vw; */
+        padding: 0;
+        margin: 0;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: max(480px, 100vw);
+        position: relative;
+        
+        
+    }
+
+    .text10 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Trending,
+    .text5,
+    .text7,
+    .text6,
+    footer,.end3-parent,.text9{
+        width: 80vw;
+    }
+
+    .end2 {
+        display: grid;
+        grid-template-columns: repeat(1, 230px);
+        grid-template-rows: repeat(15, 40px);
+        width: 80vw;
+        height: 470px;
+        grid-auto-flow: column;
+        left: 10%;
+        position: relative;
+    }
+
+    .end5 {
+        position: relative;
+        top: 30vh;
+        left: 10%;
+    }
+
+    .end3-parent {
+        position: relative;
+        top: 40vh;
+        left: 10%;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+    }
+    .end1{
+        left: 10%;
+        position: relative;
+    }
+    .text9{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    nav ul{
+        width: 80vw;
+        left: 0;
+        margin: auto;
+    }
+    .Netlix-Logo{
+        width: 30vw;
+    }
+    .Dropdown-lang select{
+        width: 10px;
+        /* padding-right: ; */
+         
+    }
+    .rightnav{
+            gap: 0px;
+    }
+    .signin{
+         display: flex; 
+     flex-wrap: nowrap;
+     flex-direction: row;
+     width: 40px;
+    
+
+    }
+    .Dropdown-lang{
+        padding-right: 0;
+        padding: 0;
+        width: 30vw;
+    }
+    .curve-container{
+        top: 40vh;
+        width: 200%;
+        left: -50%;
+        /* overflow-x: hidden; */
+       
+       
+    }
+    
+    .Trending{
+        position: relative;
+        top: 40vh;
+        width: 100vw;
+        
+       
+    }
+    .text4{
+        text-align: center;
+    }
+    .text5{
+        left: 10vw;
+        top: 50vh;
+    }
+    
+    body{
+        overflow-x: hidden;
+        overscroll-behavior-x: none;
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        overscroll-behavior-x: none;
+        overflow-x: hidden;
+          padding: 0;
+        margin: 0;
+    }
+    .text3,.text8{
+        text-align: center;
+    }
+    .text8{
+        margin: auto;
+        position: relative;
+        left: 15%;
+    }
+    
+    
+    
+    
+
+}
